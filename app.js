@@ -8,6 +8,7 @@ const medicineRoute = require('./routes/medicineRoute');
 // const medicineRoute = require('./routes/medicineRoute');
 const notesRoute = require('./routes/notesRoute');
 
+//Start express app
 const app = express();
 
 app.use(express.json());
